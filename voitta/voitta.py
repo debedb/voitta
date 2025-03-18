@@ -26,9 +26,7 @@ from dotenv import load_dotenv
 
 from asgiref.sync import async_to_sync
 
-
 load_dotenv()
-
 
 jsonpath_expr = parse("$..['$ref']")
 
